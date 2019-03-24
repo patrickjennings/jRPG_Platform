@@ -1,5 +1,5 @@
 
-import java.awt.*;
+import java.awt.Image;
 public class Map
 {
     private int x;

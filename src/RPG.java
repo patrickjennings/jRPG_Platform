@@ -1,6 +1,9 @@
-import java.awt.*;
-import java.awt.event.*;
-import java.applet.*;
+import java.applet.Applet;
+import java.awt.Color;
+import java.awt.Event;
+import java.awt.Graphics;
+import java.awt.Image;
+import java.awt.event.KeyEvent;
 
 public class RPG extends Applet implements Runnable
 {

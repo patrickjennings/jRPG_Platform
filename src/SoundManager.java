@@ -1,18 +1,18 @@
 
 public class SoundManager
 {
-    private static SoundPlayer2[] back;
-    private static SoundPlayer2[] effect;
+    private static SoundPlayer[] back;
+    private static SoundPlayer[] effect;
     public SoundManager()
     {
-        back = new SoundPlayer2[2];
-        back[0] = new SoundPlayer2("midi", "Audio/02.mid");
-        back[1] = new SoundPlayer2("midi", "Audio/battle.mid");
+        back = new SoundPlayer[2];
+        back[0] = new SoundPlayer("midi", "Audio/02.mid");
+        back[1] = new SoundPlayer("midi", "Audio/battle.mid");
         
-        effect = new SoundPlayer2[3];
-        effect[0] = new SoundPlayer2("au", "Audio/Fire.au");
-        effect[1] = new SoundPlayer2("au", "Audio/Sword.au");
-        effect[2] = new SoundPlayer2("au", "Audio/Hit.au");
+        effect = new SoundPlayer[3];
+        effect[0] = new SoundPlayer("au", "Audio/Fire.au");
+        effect[1] = new SoundPlayer("au", "Audio/Sword.au");
+        effect[2] = new SoundPlayer("au", "Audio/Hit.au");
         
         back[0].loop();
     }

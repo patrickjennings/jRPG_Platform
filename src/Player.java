@@ -1,6 +1,7 @@
 
 
-import java.awt.*;
+import java.awt.Graphics;
+import java.awt.Image;
 public class Player
 {
     private int x, y, x_pos, y_pos;

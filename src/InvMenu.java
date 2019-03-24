@@ -1,5 +1,6 @@
 
-import java.awt.*;
+import java.awt.Color;
+import java.awt.Graphics;
 public class InvMenu
 {
     private MenuItem[] menu;

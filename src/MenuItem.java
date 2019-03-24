@@ -1,5 +1,6 @@
 
-import java.awt.*;
+import java.awt.Color;
+import java.awt.Font;
 public class MenuItem
 {
     private Font font;

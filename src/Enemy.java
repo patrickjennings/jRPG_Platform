@@ -1,6 +1,6 @@
 
-import java.util.Random;
 import java.awt.Image;
+import java.util.Random;
 public class Enemy
 {
     private int maxhp;

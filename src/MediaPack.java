@@ -2,6 +2,7 @@ import java.applet.Applet;
 import java.awt.Image;
 import java.awt.MediaTracker;
 import java.io.InputStream;
+
 import javax.imageio.ImageIO;
 
 public class MediaPack extends Applet
